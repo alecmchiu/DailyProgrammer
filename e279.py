@@ -42,7 +42,9 @@ def decode(string, file_out):
 	return ''.join(decoded_lines)
 
 if __name__=='__main__':
-	s = 'I feel very strongly about you doing duty. Would you give me a little more documentation about your reading in French? I am glad you are happy — but I never believe much in happiness. I never believe in misery either. Those are things you see on the stage or the screen or the printed pages, they never really happen to you in life.'
-	e = encode(s,'file.txt')
-	decode(e,'file.txt')
+	#s = 'I feel very strongly about you doing duty. Would you give me a little more documentation about your reading in French? I am glad you are happy — but I never believe much in happiness. I never believe in misery either. Those are things you see on the stage or the screen or the printed pages, they never really happen to you in life.'
+	#e = encode(s,'file.txt')
+	#decode(e,'file.txt')
 	#decode('#0V%T','cat.txt')
+	e = encode('catf','catf.txt')
+	decode(e,'catf.txt')
