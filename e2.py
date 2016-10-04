@@ -1,5 +1,7 @@
 #!/Users/Alec/anaconda/bin/python
 
+# https://www.reddit.com/r/dailyprogrammer/comments/pjbj8/easy_challenge_2/
+
 print 'Force Calculator'
 print 'Please put x for the missing variable.'
 print 'F = M * A'
